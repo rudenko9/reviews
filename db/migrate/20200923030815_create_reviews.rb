@@ -6,7 +6,7 @@ class CreateReviews < ActiveRecord::Migration[6.0]
       t.string :brand
       t.string :storage
       t.integer :price
-      t.string :data
+      t.string :date
 
       t.timestamps
     end

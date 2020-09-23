@@ -1,3 +1,4 @@
 class ReviewSerializer < ActiveModel::Serializer
-  attributes :id
+  attributes :id, :name, :model, :brand, :storage, :price, :date
+
 end
